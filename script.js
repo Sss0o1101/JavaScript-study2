@@ -8,3 +8,19 @@ window.alert("Hello world");
 console.log(document);
 // ーーーーーーーーーーーーーーーーーーーー
 
+
+
+// ダイアログで"HeLLo"と表示する
+alert("Hello");
+
+// コンソールに"Hello"と表示する
+console. log (Hello);
+
+// タイマーを設定し、5秒後にダイアログで"HeLlo"と表示する
+const timer = setTimeout (() => {
+   alert("Hello world");
+},5000);
+
+
+// / タイマーをキャンセル
+clearTimeout (timer);
